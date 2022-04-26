@@ -1,6 +1,5 @@
 import {useState} from 'react';
 import { useDispatch } from 'react-redux';
-
 import { addTodo } from './store/todoSlice';
 import NewTodoForm from './components/NewTodoForm';
 import TodoList from './components/TodoList';
